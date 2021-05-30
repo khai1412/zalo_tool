@@ -1,0 +1,12 @@
+2021/05/30-17:42:06.180 836c Reusing MANIFEST D:\tool zalo\Tool_zalo\Tool_zalo\bin\Debug\Profile\McHUnTQleYPg\Default\IndexedDB\https_chat.zalo.me_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/30-17:42:06.180 836c Recovering log #9
+2021/05/30-17:42:06.185 836c Reusing old log D:\tool zalo\Tool_zalo\Tool_zalo\bin\Debug\Profile\McHUnTQleYPg\Default\IndexedDB\https_chat.zalo.me_0.indexeddb.leveldb/000009.log 
+2021/05/30-17:42:30.654 299c Level-0 table #14: started
+2021/05/30-17:42:30.720 299c Level-0 table #14: 1169600 bytes OK
+2021/05/30-17:42:30.768 299c Delete type=0 #9
+2021/05/30-17:42:30.980 5b54 Compacting 1@1 + 1@2 files
+2021/05/30-17:42:31.150 5b54 Generated table #15@1: 40807 keys, 1326652 bytes
+2021/05/30-17:42:31.150 5b54 Compacted 1@1 + 1@2 files => 1326652 bytes
+2021/05/30-17:42:31.310 5b54 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/05/30-17:42:31.310 5b54 Delete type=2 #11
+2021/05/30-17:42:31.310 5b54 Delete type=2 #14

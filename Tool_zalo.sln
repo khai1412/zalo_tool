@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tool_zalo", "Tool_zalo\Tool_zalo.csproj", "{358D02E3-69DD-4B5C-8E36-E98FC00E9810}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{358D02E3-69DD-4B5C-8E36-E98FC00E9810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{358D02E3-69DD-4B5C-8E36-E98FC00E9810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{358D02E3-69DD-4B5C-8E36-E98FC00E9810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{358D02E3-69DD-4B5C-8E36-E98FC00E9810}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D10BFC4-97F7-4920-BEC1-7196857D4E41}
+	EndGlobalSection
+EndGlobal
