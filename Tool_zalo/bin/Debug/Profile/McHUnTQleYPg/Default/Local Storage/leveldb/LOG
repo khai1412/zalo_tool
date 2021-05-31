@@ -1,4 +1,6 @@
-2021/05/30-17:42:05.357 1d84 Reusing MANIFEST D:\tool zalo\Tool_zalo\Tool_zalo\bin\Debug\Profile\McHUnTQleYPg\Default\Local Storage\leveldb/MANIFEST-000001
-2021/05/30-17:42:05.359 1d84 Recovering log #4
-2021/05/30-17:42:05.360 1d84 Reusing old log D:\tool zalo\Tool_zalo\Tool_zalo\bin\Debug\Profile\McHUnTQleYPg\Default\Local Storage\leveldb/000004.log 
-2021/05/30-17:42:40.648 13d0 Level-0 table #7: started
+2021/05/30-22:46:57.873 95f0 Reusing MANIFEST D:\tool zalo 1\Tool_zalo\bin\Debug\Profile\McHUnTQleYPg\Default\Local Storage\leveldb/MANIFEST-000001
+2021/05/30-22:46:57.877 95f0 Recovering log #9
+2021/05/30-22:46:57.878 95f0 Level-0 table #13: started
+2021/05/30-22:46:57.978 95f0 Level-0 table #13: 39457 bytes OK
+2021/05/30-22:46:58.138 95f0 Delete type=0 #9
+2021/05/30-22:47:25.729 6880 Level-0 table #16: started

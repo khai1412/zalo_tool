@@ -20,16 +20,34 @@ namespace Tool_zalo
         {
             InitializeComponent();
         }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
         void KetBan_And_Nhantin(IWebDriver browser)
         {
+           
             for(int i = 0; i < dtg_NoiDung.RowCount-1; i++)
             {
-                dtg_NoiDung.Rows.Add(i+1);
+                if (cb_Ket_ban.Checked)
+                {
+                    for(int j = 0; j < dtg_NoiDung.RowCount - 1; j++)
+                    {
+                        dtg_NoiDung.Rows[i].Cells[2].Value = true;
+                    }
+                }
+                if (cb_Nhan_Tin.Checked)
+                {
+                    for(int j = 0; j < dtg_NoiDung.RowCount - 1; j++)
+                    {
+                        dtg_NoiDung.Rows[i].Cells[3].Value = true;
+                    }
+                }
                 try
                 {
-                    browser.FindElement(By.Id("contact-search-input")).SendKeys(dtg_NoiDung.Rows[i].Cells[1].Value.ToString());
+                    browser.FindElement(By.Id("contact-search-input")).SendKeys(dtg_NoiDung.Rows[i].Cells[0].Value.ToString());
                     Thread.Sleep(4000);
-                    if ((bool)dtg_NoiDung.Rows[i].Cells[3].Value == true)
+                    if ((bool)dtg_NoiDung.Rows[i].Cells[2].Value == true)
                     {
                         try
                         {
@@ -44,7 +62,7 @@ namespace Tool_zalo
 
                         }
                     }
-                    if ((bool)dtg_NoiDung.Rows[i].Cells[4].Value == true)
+                    if ((bool)dtg_NoiDung.Rows[i].Cells[3].Value == true)
                     {
 
                         browser.FindElement(By.Id("input_line_0")).SendKeys(dtg_NoiDung.Rows[i].Cells[2].Value.ToString());
@@ -58,8 +76,9 @@ namespace Tool_zalo
                 }
                 Thread.Sleep(2000);
             }
-            
+
         }
+        
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -78,16 +97,26 @@ namespace Tool_zalo
             options.AddArguments("--no-sandbox");
             options.AddArguments("--disable-dev-shm-usage");
             browser = new ChromeDriver(cService, options);
+            
             browser.Navigate().GoToUrl("https://chat.zalo.me/");
             Thread.Sleep(2000);
+            
             KetBan_And_Nhantin(browser);
+            Thread.Sleep(1500);
+            browser.Quit();
             
 
         }
 
-        private void dtg_NoiDung_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-
+            string[] lines = System.IO.File.ReadAllLines(@"D:\tool zalo 1\Tool_zalo\bin\Debug\Thong_Tin.txt");
+            for(int i = 0; i < lines.Count(); i+=2)
+            {
+                dtg_NoiDung.Rows.Add(lines[i], lines[i + 1]);
+            }
         }
+
+        
     }
 }
