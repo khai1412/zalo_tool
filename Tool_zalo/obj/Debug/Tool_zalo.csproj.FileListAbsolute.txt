@@ -28,6 +28,7 @@ D:\tool zalo 1\Tool_zalo\obj\Debug\Tool_zalo.csproj.CoreCompileInputs.cache
 D:\tool zalo 1\Tool_zalo\obj\Debug\Tool_zalo.csproj.CopyComplete
 D:\tool zalo 1\Tool_zalo\obj\Debug\Tool_zalo.exe
 D:\tool zalo 1\Tool_zalo\obj\Debug\Tool_zalo.pdb
+<<<<<<< HEAD
 D:\tool zalo 2\Tool_zalo\bin\Debug\Tool_zalo.exe.config
 D:\tool zalo 2\Tool_zalo\bin\Debug\Tool_zalo.exe
 D:\tool zalo 2\Tool_zalo\bin\Debug\Tool_zalo.pdb
@@ -43,3 +44,5 @@ D:\tool zalo 2\Tool_zalo\obj\Debug\Tool_zalo.csproj.CoreCompileInputs.cache
 D:\tool zalo 2\Tool_zalo\obj\Debug\Tool_zalo.csproj.CopyComplete
 D:\tool zalo 2\Tool_zalo\obj\Debug\Tool_zalo.exe
 D:\tool zalo 2\Tool_zalo\obj\Debug\Tool_zalo.pdb
+=======
+>>>>>>> 33de469bdbecc740caa37ea9e97932e142cda89e

@@ -99,6 +99,7 @@ namespace Tool_zalo
             
             browser.Navigate().GoToUrl("https://chat.zalo.me/");
             Thread.Sleep(2000);
+<<<<<<< HEAD
             while (true)
             {
                 try
@@ -112,6 +113,10 @@ namespace Tool_zalo
                 }
             }
             
+=======
+            
+            KetBan_And_Nhantin(browser);
+>>>>>>> 33de469bdbecc740caa37ea9e97932e142cda89e
             Thread.Sleep(1500);
             browser.Quit();
             
@@ -120,6 +125,7 @@ namespace Tool_zalo
 
         private void button2_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             Random R = new Random();
             string[] Sdt = tb_Sdt.Text.Split('\n');
             string[] Noi_Dung = tb_NoiDung.Text.Split('\n');
@@ -132,5 +138,15 @@ namespace Tool_zalo
         }
 
        
+=======
+            string[] lines = System.IO.File.ReadAllLines(@"D:\tool zalo 1\Tool_zalo\bin\Debug\Thong_Tin.txt");
+            for(int i = 0; i < lines.Count(); i+=2)
+            {
+                dtg_NoiDung.Rows.Add(lines[i], lines[i + 1]);
+            }
+        }
+
+        
+>>>>>>> 33de469bdbecc740caa37ea9e97932e142cda89e
     }
 }

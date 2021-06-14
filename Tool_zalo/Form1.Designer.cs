@@ -34,14 +34,20 @@ namespace Tool_zalo
             this.cb_Ket_ban = new System.Windows.Forms.CheckBox();
             this.cb_Nhan_Tin = new System.Windows.Forms.CheckBox();
             this.button2 = new System.Windows.Forms.Button();
+<<<<<<< HEAD
             this.tb_Sdt = new System.Windows.Forms.TextBox();
+=======
+>>>>>>> 33de469bdbecc740caa37ea9e97932e142cda89e
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+<<<<<<< HEAD
             this.tb_NoiDung = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+=======
+>>>>>>> 33de469bdbecc740caa37ea9e97932e142cda89e
             ((System.ComponentModel.ISupportInitialize)(this.dtg_NoiDung)).BeginInit();
             this.SuspendLayout();
             // 
@@ -59,6 +65,7 @@ namespace Tool_zalo
             this.dtg_NoiDung.Name = "dtg_NoiDung";
             this.dtg_NoiDung.RowHeadersWidth = 82;
             this.dtg_NoiDung.RowTemplate.Height = 24;
+<<<<<<< HEAD
             this.dtg_NoiDung.Size = new System.Drawing.Size(1028, 230);
             this.dtg_NoiDung.TabIndex = 0;
             // 
@@ -88,6 +95,37 @@ namespace Tool_zalo
             // 
             this.cb_Nhan_Tin.AutoSize = true;
             this.cb_Nhan_Tin.Location = new System.Drawing.Point(891, 321);
+=======
+            this.dtg_NoiDung.Size = new System.Drawing.Size(884, 230);
+            this.dtg_NoiDung.TabIndex = 0;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.8F);
+            this.button1.Location = new System.Drawing.Point(0, 235);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(742, 81);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Start";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // cb_Ket_ban
+            // 
+            this.cb_Ket_ban.AutoSize = true;
+            this.cb_Ket_ban.Location = new System.Drawing.Point(748, 274);
+            this.cb_Ket_ban.Name = "cb_Ket_ban";
+            this.cb_Ket_ban.Size = new System.Drawing.Size(116, 21);
+            this.cb_Ket_ban.TabIndex = 2;
+            this.cb_Ket_ban.Text = "kết bạn tất cả";
+            this.cb_Ket_ban.UseVisualStyleBackColor = true;
+            // 
+            // cb_Nhan_Tin
+            // 
+            this.cb_Nhan_Tin.AutoSize = true;
+            this.cb_Nhan_Tin.Location = new System.Drawing.Point(748, 295);
+>>>>>>> 33de469bdbecc740caa37ea9e97932e142cda89e
             this.cb_Nhan_Tin.Name = "cb_Nhan_Tin";
             this.cb_Nhan_Tin.Size = new System.Drawing.Size(120, 21);
             this.cb_Nhan_Tin.TabIndex = 3;
@@ -96,13 +134,18 @@ namespace Tool_zalo
             // 
             // button2
             // 
+<<<<<<< HEAD
             this.button2.Location = new System.Drawing.Point(891, 255);
+=======
+            this.button2.Location = new System.Drawing.Point(748, 235);
+>>>>>>> 33de469bdbecc740caa37ea9e97932e142cda89e
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(124, 33);
             this.button2.TabIndex = 4;
             this.button2.Text = "Add thông tin";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
+<<<<<<< HEAD
             // 
             // tb_Sdt
             // 
@@ -112,20 +155,26 @@ namespace Tool_zalo
             this.tb_Sdt.Name = "tb_Sdt";
             this.tb_Sdt.Size = new System.Drawing.Size(266, 172);
             this.tb_Sdt.TabIndex = 12;
+=======
+>>>>>>> 33de469bdbecc740caa37ea9e97932e142cda89e
             // 
             // Column2
             // 
             this.Column2.HeaderText = "Số điện thoại";
             this.Column2.MinimumWidth = 6;
             this.Column2.Name = "Column2";
-            this.Column2.Width = 200;
+            this.Column2.Width = 150;
             // 
             // Column3
             // 
             this.Column3.HeaderText = "Nội dung tin nhắn";
             this.Column3.MinimumWidth = 6;
             this.Column3.Name = "Column3";
+<<<<<<< HEAD
             this.Column3.Width = 300;
+=======
+            this.Column3.Width = 250;
+>>>>>>> 33de469bdbecc740caa37ea9e97932e142cda89e
             // 
             // Column4
             // 
@@ -139,6 +188,7 @@ namespace Tool_zalo
             this.Column5.MinimumWidth = 6;
             this.Column5.Name = "Column5";
             // 
+<<<<<<< HEAD
             // tb_NoiDung
             // 
             this.tb_NoiDung.Location = new System.Drawing.Point(552, 255);
@@ -165,15 +215,21 @@ namespace Tool_zalo
             this.label4.TabIndex = 17;
             this.label4.Text = "Nhập nội dung tin nhắn";
             // 
+=======
+>>>>>>> 33de469bdbecc740caa37ea9e97932e142cda89e
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(1028, 434);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.tb_NoiDung);
             this.Controls.Add(this.tb_Sdt);
+=======
+            this.ClientSize = new System.Drawing.Size(884, 325);
+>>>>>>> 33de469bdbecc740caa37ea9e97932e142cda89e
             this.Controls.Add(this.button2);
             this.Controls.Add(this.cb_Nhan_Tin);
             this.Controls.Add(this.cb_Ket_ban);
@@ -195,14 +251,20 @@ namespace Tool_zalo
         private System.Windows.Forms.CheckBox cb_Ket_ban;
         private System.Windows.Forms.CheckBox cb_Nhan_Tin;
         private System.Windows.Forms.Button button2;
+<<<<<<< HEAD
         private System.Windows.Forms.TextBox tb_Sdt;
+=======
+>>>>>>> 33de469bdbecc740caa37ea9e97932e142cda89e
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewCheckBoxColumn Column4;
         private System.Windows.Forms.DataGridViewCheckBoxColumn Column5;
+<<<<<<< HEAD
         private System.Windows.Forms.TextBox tb_NoiDung;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+=======
+>>>>>>> 33de469bdbecc740caa37ea9e97932e142cda89e
     }
 }
 
