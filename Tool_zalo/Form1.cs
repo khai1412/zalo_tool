@@ -20,16 +20,34 @@ namespace Tool_zalo
         {
             InitializeComponent();
         }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
         void KetBan_And_Nhantin(IWebDriver browser)
         {
+           
             for(int i = 0; i < dtg_NoiDung.RowCount-1; i++)
             {
-                dtg_NoiDung.Rows.Add(i+1);
+                if (cb_Ket_ban.Checked)
+                {
+                    for(int j = 0; j < dtg_NoiDung.RowCount - 1; j++)
+                    {
+                        dtg_NoiDung.Rows[i].Cells[2].Value = true;
+                    }
+                }
+                if (cb_Nhan_Tin.Checked)
+                {
+                    for(int j = 0; j < dtg_NoiDung.RowCount - 1; j++)
+                    {
+                        dtg_NoiDung.Rows[i].Cells[3].Value = true;
+                    }
+                }
                 try
                 {
-                    browser.FindElement(By.Id("contact-search-input")).SendKeys(dtg_NoiDung.Rows[i].Cells[1].Value.ToString());
+                    browser.FindElement(By.Id("contact-search-input")).SendKeys(dtg_NoiDung.Rows[i].Cells[0].Value.ToString());
                     Thread.Sleep(4000);
-                    if ((bool)dtg_NoiDung.Rows[i].Cells[3].Value == true)
+                    if ((bool)dtg_NoiDung.Rows[i].Cells[2].Value == true)
                     {
                         try
                         {
@@ -44,7 +62,7 @@ namespace Tool_zalo
 
                         }
                     }
-                    if ((bool)dtg_NoiDung.Rows[i].Cells[4].Value == true)
+                    if ((bool)dtg_NoiDung.Rows[i].Cells[3].Value == true)
                     {
 
                         browser.FindElement(By.Id("input_line_0")).SendKeys(dtg_NoiDung.Rows[i].Cells[2].Value.ToString());
@@ -58,18 +76,18 @@ namespace Tool_zalo
                 }
                 Thread.Sleep(2000);
             }
-            
+
         }
+        
 
         private void button1_Click(object sender, EventArgs e)
         {
-            DirectoryInfo dir = new DirectoryInfo("Profile");
-            List<DirectoryInfo> NameOfProfile = dir.GetDirectories().ToList();
+           
             IWebDriver browser;
             ChromeDriverService cService = ChromeDriverService.CreateDefaultService();
             cService.HideCommandPromptWindow = true;
             ChromeOptions options = new ChromeOptions();
-            options.AddArguments("--user-data-dir=" + NameOfProfile[0].FullName);
+            options.AddArguments("--user-data-dir=" + Application.StartupPath + "\\Profile\\Profile");
             options.AddArguments("--disable-notifications");
             options.AddArguments("--disable-infobars");
             options.AddArguments("--disable-popup-blocking");
@@ -78,16 +96,41 @@ namespace Tool_zalo
             options.AddArguments("--no-sandbox");
             options.AddArguments("--disable-dev-shm-usage");
             browser = new ChromeDriver(cService, options);
+            
             browser.Navigate().GoToUrl("https://chat.zalo.me/");
             Thread.Sleep(2000);
-            KetBan_And_Nhantin(browser);
+            while (true)
+            {
+                try
+                {
+                    KetBan_And_Nhantin(browser);
+                    break;
+                }
+                catch
+                {
+
+                }
+            }
+            
+            Thread.Sleep(1500);
+            browser.Quit();
             
 
         }
 
-        private void dtg_NoiDung_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-
+            Random R = new Random();
+            string[] Sdt = tb_Sdt.Text.Split('\n');
+            string[] Noi_Dung = tb_NoiDung.Text.Split('\n');
+            for(int i = 0; i < Sdt.Length; i++)
+            {
+                int random = R.Next(0, Noi_Dung.Length );
+                dtg_NoiDung.Rows.Add(Sdt[i], Noi_Dung[random]);
+            }
+           
         }
+
+       
     }
 }

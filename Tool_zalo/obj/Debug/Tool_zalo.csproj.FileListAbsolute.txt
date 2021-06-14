@@ -13,3 +13,33 @@ D:\tool zalo\Tool_zalo\Tool_zalo\bin\Debug\WebDriver.Support.dll
 D:\tool zalo\Tool_zalo\Tool_zalo\bin\Debug\WebDriver.xml
 D:\tool zalo\Tool_zalo\Tool_zalo\bin\Debug\WebDriver.Support.xml
 D:\tool zalo\Tool_zalo\Tool_zalo\obj\Debug\Tool_zalo.csproj.CopyComplete
+D:\tool zalo 1\Tool_zalo\bin\Debug\Tool_zalo.exe.config
+D:\tool zalo 1\Tool_zalo\bin\Debug\Tool_zalo.exe
+D:\tool zalo 1\Tool_zalo\bin\Debug\Tool_zalo.pdb
+D:\tool zalo 1\Tool_zalo\bin\Debug\WebDriver.dll
+D:\tool zalo 1\Tool_zalo\bin\Debug\WebDriver.Support.dll
+D:\tool zalo 1\Tool_zalo\bin\Debug\WebDriver.xml
+D:\tool zalo 1\Tool_zalo\bin\Debug\WebDriver.Support.xml
+D:\tool zalo 1\Tool_zalo\obj\Debug\Tool_zalo.csprojAssemblyReference.cache
+D:\tool zalo 1\Tool_zalo\obj\Debug\Tool_zalo.Form1.resources
+D:\tool zalo 1\Tool_zalo\obj\Debug\Tool_zalo.Properties.Resources.resources
+D:\tool zalo 1\Tool_zalo\obj\Debug\Tool_zalo.csproj.GenerateResource.cache
+D:\tool zalo 1\Tool_zalo\obj\Debug\Tool_zalo.csproj.CoreCompileInputs.cache
+D:\tool zalo 1\Tool_zalo\obj\Debug\Tool_zalo.csproj.CopyComplete
+D:\tool zalo 1\Tool_zalo\obj\Debug\Tool_zalo.exe
+D:\tool zalo 1\Tool_zalo\obj\Debug\Tool_zalo.pdb
+D:\tool zalo 2\Tool_zalo\bin\Debug\Tool_zalo.exe.config
+D:\tool zalo 2\Tool_zalo\bin\Debug\Tool_zalo.exe
+D:\tool zalo 2\Tool_zalo\bin\Debug\Tool_zalo.pdb
+D:\tool zalo 2\Tool_zalo\bin\Debug\WebDriver.dll
+D:\tool zalo 2\Tool_zalo\bin\Debug\WebDriver.Support.dll
+D:\tool zalo 2\Tool_zalo\bin\Debug\WebDriver.xml
+D:\tool zalo 2\Tool_zalo\bin\Debug\WebDriver.Support.xml
+D:\tool zalo 2\Tool_zalo\obj\Debug\Tool_zalo.csprojAssemblyReference.cache
+D:\tool zalo 2\Tool_zalo\obj\Debug\Tool_zalo.Form1.resources
+D:\tool zalo 2\Tool_zalo\obj\Debug\Tool_zalo.Properties.Resources.resources
+D:\tool zalo 2\Tool_zalo\obj\Debug\Tool_zalo.csproj.GenerateResource.cache
+D:\tool zalo 2\Tool_zalo\obj\Debug\Tool_zalo.csproj.CoreCompileInputs.cache
+D:\tool zalo 2\Tool_zalo\obj\Debug\Tool_zalo.csproj.CopyComplete
+D:\tool zalo 2\Tool_zalo\obj\Debug\Tool_zalo.exe
+D:\tool zalo 2\Tool_zalo\obj\Debug\Tool_zalo.pdb
